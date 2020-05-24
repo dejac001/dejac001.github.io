@@ -31,5 +31,5 @@ h2, ol, p {
 }
 .profile {
     width: 570px;
-    text-align: center;
+    display: block;
 }
