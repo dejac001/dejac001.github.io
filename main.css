@@ -1,21 +1,35 @@
 body {
     font-family: Georgia, "Times New Roman", serif;
-    background-color: #DCDCDC;
-    font-size: 1.2em;
+    background-color: #efefef;
+    width: 570px;
+    text-align: center;
+    margin: 0px auto 0px auto;
 }
 h1 {
     text-align: center;
 }
-ul {
+ul.hf {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
-    text-align: center;
-    width: 570px;
-    padding: 15px;
-    margin: 0px auto 0px auto;
+    padding: 10px;
+}
+ul.cv {
+    list-style-position: outside;
+    list-style-type: circle;
+    text-align: left;
+}
+li.cv {
+    margin: 5px auto 5px auto;
 }
 
 li.hf {
     display: inline;
     margin: 0px 3px;
+}
+h2, ol, p {
+    text-align: left;
+}
+.profile {
+    width: 570px;
+    text-align: center;
 }
